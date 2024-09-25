@@ -4,7 +4,7 @@ import Navbar from "./Navbar/Navbar";
 const companyInfo = {
     companyName: "Company Name",
     companyDesc: "Company Description",
-    supportNumber: "1234567890",
+    supportNumber: "12-34567890",
 };
 
 export default function Home() {

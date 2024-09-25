@@ -1,0 +1,35 @@
+.sub-navbar {
+    display: flex;
+    border-top: 1px solid #ccc;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    list-style-type: none;
+    margin-top: 1rem;
+}
+
+.sub-navbar section {
+    display: flex;
+    gap: 15px;
+}
+
+.sub-navbar li {
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.sub-navbar li:hover {
+    color: #007bff;
+}
+
+.sub-navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.sub-navbar .subNav-left-side li,
+.sub-navbar .subNav-right-side li {
+    padding: 5px 10px;
+}

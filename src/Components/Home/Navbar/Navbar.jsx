@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import SubNavbar from "./SubNavbar/SubNavbar";
 
 import { SlBasket } from "react-icons/sl";
 import { BiSupport } from "react-icons/bi";
@@ -28,6 +29,7 @@ export default function Navbar({ companyName, companyDesc, supportNumber }) {
                     {supportNumber}
                 </li>
             </ul>
+            <SubNavbar />
         </nav>
     );
 }
